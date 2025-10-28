@@ -74,7 +74,7 @@ void ABullet::OnPoolDeactivate()
 
 이렇게 만든 액터에 대한 파생 블루프린트를 만든 후 테이블에서 선택하면 객체를 미리 생성할 수 있게된다.
 
-<!-- ![](/assets/img/post/2025-09-05-Subsystem을 활용한 ObjectPool_2_001.png) -->
+![](/assets/img/post/ObjectPoolBySubsystem/initialized-actors.png)
 _생성된 객체들_
 
 그런데 한 가지 문제가 생겼다. 분명 풀에 들어가는 객체의 활성화 로직은 거의 같을 것이다. 즉, 객체들은 모두 같은 작업을 수행하는 셈인데, 객체 마다의 구현부에서 똑같은 코드를 일일이 작성하는 것은 굉장히 비효율적이다. 그렇기 때문에 반복 작업을 줄이고자 액터 컴포넌트를 추가하기로 했다.
