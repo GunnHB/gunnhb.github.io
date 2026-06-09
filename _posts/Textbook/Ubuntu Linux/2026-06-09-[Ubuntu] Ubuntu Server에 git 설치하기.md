@@ -62,7 +62,7 @@ echo "*/__pycache__/" > .gitignore
 # 모든 파일 추가
 git add .
 # 로컬에 프로젝트 업로드
-git commit -m "feat: Redis cache applied and load tested initial infrastructure"
+git commit -m "커밋 메시지"
 ```
 
 ![](/assets/img/post/Textbook/Ubuntu%20Linux/ubuntu_git_commit.png)
@@ -159,3 +159,6 @@ git push -u origin main
 
 > 최초 푸시에서 아이디와 패스워드(토큰)을 한 번만 입력
 {: .prompt-tip}
+
+![](/assets/img/post/Textbook/Ubuntu%20Linux/ubuntu_git_upload.png)
+_프로젝트 업로드 완료_
